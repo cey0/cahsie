@@ -1,0 +1,74 @@
+/* Import and apply Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+        
+body {
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font to the body */
+    background-color: #80BCBD;
+    margin: 0;
+    padding: 0;
+}
+.lc_block{
+    background-color: #AAD9BB;
+}
+/* Center the .lc_block using flexbox */
+.container.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height of the container to occupy full viewport height */
+    
+}
+
+.hero.login {
+    /* If necessary, adjust width or additional styles for the .hero.login */
+}
+
+.lc_block {
+    /* Additional styles for the block if needed */
+    width: 723px;
+height: 595px;
+flex-shrink: 0;
+}
+.judul{
+    height: 110px;
+}
+.judul h1{
+    font-size: 54px;
+}
+.sub-judul{
+    font-size: 24px;
+}
+.ctrl{
+    width: 594px;
+    height: 72px;
+}
+.btnn{
+    background-color: #8CB1E7;
+}
+.containe {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    background-color: #80BCBD;
+    width: 200px;
+    height: 100%;
+    color: white;
+    padding: 20px;
+}
+.content {
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.barang{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mantap{
+    width: 500px;
+}
