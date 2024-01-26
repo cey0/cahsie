@@ -33,7 +33,7 @@ class LoginController extends Controller
         session(['role' => $user->role]);
 
         if ($user->role === 'kasir') {
-            return redirect()->route('dashboard.kasir'); // Redirect to kasir dashboard
+            return redirect()->route('kasir.index'); // Redirect to kasir dashboard
         } else {
             return redirect()->route('dashboard.index'); // Redirect to admin or other dashboard
         }
